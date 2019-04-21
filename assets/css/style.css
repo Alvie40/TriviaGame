@@ -1,0 +1,91 @@
+.answerchoice {
+	border: 1px solid black;
+  border-radius: 12px;
+	width: 40%;
+	color: #403fd3;
+  text-align: center;
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: white;
+
+}
+
+img {
+  max-height: 180px;
+  width: auto;
+}
+
+#answerblock {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#questionblock {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+}
+
+#reset {
+  visibility: visible;
+
+}
+
+body {
+  background-image: url("../img/marvel4.jpg");
+  background-size: cover;
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: yellow;
+  font-weight: bolder;
+  padding: 15px;
+  font-size: 75px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p {
+  margin: 10px;
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+
+h2, h4 {
+  margin: 30px;
+  font-weight: bold;
+  color: #403fd3;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.blinking{
+    animation:blinkingText 5s infinite;
+    font-size: 1.5em;
+    font-family: 'Permanent Marker', cursive;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(233, 17, 17);  }
+    49%{    color: transparent;  }
+    50%{    color:rgb(233, 17, 17);  }
+    99%{    color:transparent;  }
+    100%{   color: rgb(233, 17, 17);  }
+}
+
+
+.wrapper {
+  margin: 5px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid #403fd3;
+  height: 435px;
+  width: 60%;
+  text-align: center;
+}
+
+.btn {
+  position: relative;
+  bottom: -15px;
+  font-size: 3em;
+}
